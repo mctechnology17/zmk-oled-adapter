@@ -53,7 +53,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-config
+    - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
   self:
