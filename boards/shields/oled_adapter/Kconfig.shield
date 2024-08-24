@@ -1,0 +1,20 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_OLED_ADAPTER_PRO_MICRO_128X32
+    def_bool $(shields_list_contains,oled_adapter_pro_micro_128x32)
+
+config SHIELD_OLED_ADAPTER_PRO_MICRO_128X64
+    def_bool $(shields_list_contains,oled_adapter_pro_micro_128x64)
+
+config SHIELD_OLED_ADAPTER_PRO_MICRO_128X128
+    def_bool $(shields_list_contains,oled_adapter_pro_micro_128x128)
+
+config SHIELD_OLED_ADAPTER_SEEEDUINO_XIAO_BLE_128X32
+    def_bool $(shields_list_contains,oled_adapter_seeeduino_xiao_ble_128x32)
+
+config SHIELD_OLED_ADAPTER_SEEEDUINO_XIAO_BLE_128X64
+    def_bool $(shields_list_contains,oled_adapter_seeeduino_xiao_ble_128x64)
+
+config SHIELD_OLED_ADAPTER_SEEEDUINO_XIAO_BLE_128X128
+    def_bool $(shields_list_contains,oled_adapter_seeeduino_xiao_ble_128x128)
