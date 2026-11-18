@@ -6,6 +6,14 @@ How the versions work (the third number is the ZMK version):
 - v0.0.4.N        versions for the next ZMK version (v0.4)
 - New work is developed on the branch `dev`
 
+# FEATURES v0.0.4 (not released yet, branch `zmk-v0.4`) · next ZMK (Zephyr 4.1)
+=======================================
+Migration to the next ZMK version. This branch does not build with ZMK v0.3: use `main` or `zmk-v0.3` for that.
+
+# CHANGES
+- [x] build.yaml uses the new board names (`nice_nano//zmk`, `puchi_ble//zmk`)
+- [ ] Not tested on hardware yet
+
 # FEATURES NEXT (not released yet)
 =======================================
 # CHANGES
