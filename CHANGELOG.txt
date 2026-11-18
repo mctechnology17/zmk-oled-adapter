@@ -1,0 +1,25 @@
+Changelog of zmk-oled-adapter.
+https://github.com/mctechnology17/zmk-oled-adapter/blob/main/CHANGELOG.txt
+
+How the versions work:
+- vX.Y.Z          released from the branch `main`
+- New work is developed on the branch `dev`
+
+# FEATURES NEXT (not released yet)
+=======================================
+# CHANGES
+- [x] CHANGELOG.txt added
+- [x] GitHub Actions build workflow removed
+
+# TODO
+- [ ] Verify the build with ZMK v0.3 (the branch `zmk-v0.3` is created after that)
+
+# FEATURES v0.0.3 (Nov 18, 2026)
+=======================================
+First tagged version: snapshot of everything published until this date.
+
+# NEW FEATURES
+- [x] Adapter shields for 128x32, 128x64 and 128x128 OLED screens without modifying the keyboard shield
+- [x] Pro Micro pinout: `oled_adapter_pro_micro_128x32`, `oled_adapter_pro_micro_128x64`, `oled_adapter_pro_micro_128x128`
+- [x] Seeeduino XIAO BLE pinout: `oled_adapter_seeeduino_xiao_ble_128x32`, `oled_adapter_seeeduino_xiao_ble_128x64`, `oled_adapter_seeeduino_xiao_ble_128x128`
+- [x] The `oled` node is created from scratch, so it also works when the keyboard shield has no `oled` node (Nov 09, 2025)
