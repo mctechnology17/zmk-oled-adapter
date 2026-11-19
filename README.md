@@ -10,6 +10,7 @@
 
 </div>
 <!-- mc-follow-top:end -->
+
 This module is an adapter for 128x32, 128x64 and 128x128 OLED screens, to be
 used on keyboards with ZMK without having to modify the shields of the
 keyboards.
